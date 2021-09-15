@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="background-color: #e3d996">
+    <img id="image" onclick ="changeColor()" style ="margin-Left: 600px" src="file:///C:/Users/Admin/Desktop/pic_bulboff.gif">
+
+    <script type="text/javascript">
+        function changeColor(){
+            if(document.getElementById('image').src.endsWith("file:///C:/Users/Admin/Desktop/pic_bulboff.gif"))
+                document.getElementById('image').src = "file:///C:/Users/Admin/Desktop/pic_bulbon.gif";
+            else {
+                document.getElementById('image').src = "file:///C:/Users/Admin/Desktop/pic_bulboff.gif";
+            }
+
+        }
+    
+    </script>
+
+</body>
+</html>
